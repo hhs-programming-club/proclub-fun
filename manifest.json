@@ -7,7 +7,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://homestead.schoolloop.com/portal/student_home"],
+      "matches": ["https://homestead.schoolloop.com/*"],
       "css": ["style.css"],
       "js": ["jquery.js", "script.js"]
     }
